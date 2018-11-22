@@ -1,1 +1,1 @@
-# cours_sql_book
+# cours_postgresql
