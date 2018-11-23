@@ -61,4 +61,3 @@ CREATE TABLE Pret(
    id_subscriber INT REFERENCES Subscriber(id_subscriber) NOT NULL,
    id_book INT REFERENCES Ouvrage(id_book) NOT NULL
 );
-

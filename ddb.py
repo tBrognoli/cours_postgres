@@ -288,7 +288,7 @@ def get_book():
 
 
 def Elonore_Dehombreux(cursor):
-    with open("fun.sql", "r") as myfile:
+    with open("fun", "r") as myfile:
         sql_query = myfile.read()
 
     cursor.execute(sql_query)
