@@ -51,7 +51,7 @@ def main(dbname, user, password, sql_file, json_file, host, port):
             sql_file = input("Nom du fichier sql :\n")
         worked = addTable(cursor, sql_file)
         if worked:
-            main()
+            main(dbname, user, password, sql_file, json_file, host, port)
 
     elif resp == "2":
         if not json_file:
